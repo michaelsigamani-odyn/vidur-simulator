@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/vidur/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/opt/miniconda3/envs/vidur/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/Users/michaelsigamani/Documents/DevelopmentCode/2026-fall/SimAI/vidur-alibabacloud/vidur/main.py", line 2, in <module>
+    from vidur.simulator import Simulator
+  File "/Users/michaelsigamani/Documents/DevelopmentCode/2026-fall/SimAI/vidur-alibabacloud/vidur/simulator.py", line 7, in <module>
+    from vidur.entities import Cluster
+  File "/Users/michaelsigamani/Documents/DevelopmentCode/2026-fall/SimAI/vidur-alibabacloud/vidur/entities/__init__.py", line 1, in <module>
+    from vidur.entities.batch import Batch
+  File "/Users/michaelsigamani/Documents/DevelopmentCode/2026-fall/SimAI/vidur-alibabacloud/vidur/entities/batch.py", line 4, in <module>
+    from vidur.entities.request import Request
+  File "/Users/michaelsigamani/Documents/DevelopmentCode/2026-fall/SimAI/vidur-alibabacloud/vidur/entities/request.py", line 7, in <module>
+    import networkx as nx
+ModuleNotFoundError: No module named 'networkx'

@@ -1,0 +1,9 @@
+project_id       = "your-gcp-project"
+region           = "europe-west1"
+service_name     = "odyn-simulator"
+image            = "europe-west1-docker.pkg.dev/your-gcp-project/odyn-simulator/odyn-simulator:latest"
+results_bucket_name = "odyn-simulator-results-your-gcp-project"
+results_prefix   = "simulations"
+allowed_invoker  = "group:engineering@odyn.ai"
+min_instances    = 1
+max_instances    = 10

@@ -1,0 +1,586 @@
+[2026-09-15 07:12:11] AICBGlobalCache 初始化完成, 缓存目录: /Users/michaelsigamani/Documents/DevelopmentCode/2026-fall/SimAI/vidur-alibabacloud/data/aicb_workload/cache
+[2026-09-15 07:12:18] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=0, seq=0, phase=decode
+[2026-09-15 07:12:18] [AICB调用] 第1次subprocess调用
+[2026-09-15 07:12:18] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=100, phase=decode
+[2026-09-15 07:12:18] [AICB调用] 第2次subprocess调用
+[2026-09-15 07:12:18] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=101, phase=decode
+[2026-09-15 07:12:18] [AICB调用] 第3次subprocess调用
+[2026-09-15 07:12:18] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=102, phase=decode
+[2026-09-15 07:12:18] [AICB调用] 第4次subprocess调用
+[2026-09-15 07:12:18] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=103, phase=decode
+[2026-09-15 07:12:18] [AICB调用] 第5次subprocess调用
+[2026-09-15 07:12:18] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=104, phase=decode
+[2026-09-15 07:12:18] [AICB调用] 第6次subprocess调用
+[2026-09-15 07:12:19] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=105, phase=decode
+[2026-09-15 07:12:19] [AICB调用] 第7次subprocess调用
+[2026-09-15 07:12:19] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=106, phase=decode
+[2026-09-15 07:12:19] [AICB调用] 第8次subprocess调用
+[2026-09-15 07:12:19] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=0, seq=0, phase=decode
+[2026-09-15 07:12:19] [AICB调用] 第9次subprocess调用
+[2026-09-15 07:12:19] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=100, phase=decode
+[2026-09-15 07:12:19] [AICB调用] 第10次subprocess调用
+[2026-09-15 07:12:19] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=101, phase=decode
+[2026-09-15 07:12:19] [AICB调用] 第11次subprocess调用
+[2026-09-15 07:12:19] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=102, phase=decode
+[2026-09-15 07:12:19] [AICB调用] 第12次subprocess调用
+[2026-09-15 07:12:19] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=103, phase=decode
+[2026-09-15 07:12:19] [AICB调用] 第13次subprocess调用
+[2026-09-15 07:12:19] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=104, phase=decode
+[2026-09-15 07:12:19] [AICB调用] 第14次subprocess调用
+[2026-09-15 07:12:19] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=105, phase=decode
+[2026-09-15 07:12:19] [AICB调用] 第15次subprocess调用
+[2026-09-15 07:12:19] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=106, phase=decode
+[2026-09-15 07:12:19] [AICB调用] 第16次subprocess调用
+[2026-09-15 07:12:19] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=0, seq=0, phase=decode
+[2026-09-15 07:12:19] [AICB调用] 第17次subprocess调用
+[2026-09-15 07:12:19] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=100, phase=decode
+[2026-09-15 07:12:19] [AICB调用] 第18次subprocess调用
+[2026-09-15 07:12:19] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=101, phase=decode
+[2026-09-15 07:12:19] [AICB调用] 第19次subprocess调用
+[2026-09-15 07:12:19] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=102, phase=decode
+[2026-09-15 07:12:19] [AICB调用] 第20次subprocess调用
+[2026-09-15 07:12:19] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=103, phase=decode
+[2026-09-15 07:12:19] [AICB调用] 第21次subprocess调用
+[2026-09-15 07:12:19] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=104, phase=decode
+[2026-09-15 07:12:19] [AICB调用] 第22次subprocess调用
+[2026-09-15 07:12:19] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=105, phase=decode
+[2026-09-15 07:12:19] [AICB调用] 第23次subprocess调用
+[2026-09-15 07:12:19] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=106, phase=decode
+[2026-09-15 07:12:19] [AICB调用] 第24次subprocess调用
+[2026-09-15 07:12:19] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=0, seq=0, phase=decode
+[2026-09-15 07:12:19] [AICB调用] 第25次subprocess调用
+[2026-09-15 07:12:19] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=100, phase=decode
+[2026-09-15 07:12:19] [AICB调用] 第26次subprocess调用
+[2026-09-15 07:12:19] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=101, phase=decode
+[2026-09-15 07:12:19] [AICB调用] 第27次subprocess调用
+[2026-09-15 07:12:19] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=102, phase=decode
+[2026-09-15 07:12:19] [AICB调用] 第28次subprocess调用
+[2026-09-15 07:12:19] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=103, phase=decode
+[2026-09-15 07:12:19] [AICB调用] 第29次subprocess调用
+[2026-09-15 07:12:19] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=104, phase=decode
+[2026-09-15 07:12:19] [AICB调用] 第30次subprocess调用
+[2026-09-15 07:12:19] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=105, phase=decode
+[2026-09-15 07:12:19] [AICB调用] 第31次subprocess调用
+[2026-09-15 07:12:19] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=106, phase=decode
+[2026-09-15 07:12:19] [AICB调用] 第32次subprocess调用
+[2026-09-15 07:12:19] 统计: hits=0, interp=0, calls=32, entries=0
+[2026-09-15 07:12:19] 查表索引已保存到 /Users/michaelsigamani/Documents/DevelopmentCode/2026-fall/SimAI/vidur-alibabacloud/data/aicb_workload/lookup_table.json
+[2026-09-15 07:32:28] AICBGlobalCache 初始化完成, 缓存目录: /Users/michaelsigamani/Documents/DevelopmentCode/2026-fall/SimAI/vidur-alibabacloud/data/aicb_workload/cache
+[2026-09-15 07:32:31] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=0, seq=0, phase=decode
+[2026-09-15 07:32:31] [AICB调用] 第1次subprocess调用
+[2026-09-15 07:32:31] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=100, phase=decode
+[2026-09-15 07:32:31] [AICB调用] 第2次subprocess调用
+[2026-09-15 07:32:31] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=101, phase=decode
+[2026-09-15 07:32:31] [AICB调用] 第3次subprocess调用
+[2026-09-15 07:32:31] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=102, phase=decode
+[2026-09-15 07:32:31] [AICB调用] 第4次subprocess调用
+[2026-09-15 07:32:31] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=103, phase=decode
+[2026-09-15 07:32:31] [AICB调用] 第5次subprocess调用
+[2026-09-15 07:32:31] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=104, phase=decode
+[2026-09-15 07:32:31] [AICB调用] 第6次subprocess调用
+[2026-09-15 07:32:31] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=105, phase=decode
+[2026-09-15 07:32:31] [AICB调用] 第7次subprocess调用
+[2026-09-15 07:32:31] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=106, phase=decode
+[2026-09-15 07:32:31] [AICB调用] 第8次subprocess调用
+[2026-09-15 07:32:31] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=0, seq=0, phase=decode
+[2026-09-15 07:32:31] [AICB调用] 第9次subprocess调用
+[2026-09-15 07:32:31] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=100, phase=decode
+[2026-09-15 07:32:31] [AICB调用] 第10次subprocess调用
+[2026-09-15 07:32:31] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=101, phase=decode
+[2026-09-15 07:32:31] [AICB调用] 第11次subprocess调用
+[2026-09-15 07:32:31] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=102, phase=decode
+[2026-09-15 07:32:31] [AICB调用] 第12次subprocess调用
+[2026-09-15 07:32:32] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=103, phase=decode
+[2026-09-15 07:32:32] [AICB调用] 第13次subprocess调用
+[2026-09-15 07:32:32] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=104, phase=decode
+[2026-09-15 07:32:32] [AICB调用] 第14次subprocess调用
+[2026-09-15 07:32:32] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=105, phase=decode
+[2026-09-15 07:32:32] [AICB调用] 第15次subprocess调用
+[2026-09-15 07:32:32] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=106, phase=decode
+[2026-09-15 07:32:32] [AICB调用] 第16次subprocess调用
+[2026-09-15 07:32:32] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=0, seq=0, phase=decode
+[2026-09-15 07:32:32] [AICB调用] 第17次subprocess调用
+[2026-09-15 07:32:32] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=100, phase=decode
+[2026-09-15 07:32:32] [AICB调用] 第18次subprocess调用
+[2026-09-15 07:32:32] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=101, phase=decode
+[2026-09-15 07:32:32] [AICB调用] 第19次subprocess调用
+[2026-09-15 07:32:32] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=102, phase=decode
+[2026-09-15 07:32:32] [AICB调用] 第20次subprocess调用
+[2026-09-15 07:32:32] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=103, phase=decode
+[2026-09-15 07:32:32] [AICB调用] 第21次subprocess调用
+[2026-09-15 07:32:32] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=104, phase=decode
+[2026-09-15 07:32:32] [AICB调用] 第22次subprocess调用
+[2026-09-15 07:32:32] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=105, phase=decode
+[2026-09-15 07:32:32] [AICB调用] 第23次subprocess调用
+[2026-09-15 07:32:32] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=106, phase=decode
+[2026-09-15 07:32:32] [AICB调用] 第24次subprocess调用
+[2026-09-15 07:32:32] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=0, seq=0, phase=decode
+[2026-09-15 07:32:32] [AICB调用] 第25次subprocess调用
+[2026-09-15 07:32:32] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=100, phase=decode
+[2026-09-15 07:32:32] [AICB调用] 第26次subprocess调用
+[2026-09-15 07:32:32] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=101, phase=decode
+[2026-09-15 07:32:32] [AICB调用] 第27次subprocess调用
+[2026-09-15 07:32:32] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=102, phase=decode
+[2026-09-15 07:32:32] [AICB调用] 第28次subprocess调用
+[2026-09-15 07:32:32] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=103, phase=decode
+[2026-09-15 07:32:32] [AICB调用] 第29次subprocess调用
+[2026-09-15 07:32:32] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=104, phase=decode
+[2026-09-15 07:32:32] [AICB调用] 第30次subprocess调用
+[2026-09-15 07:32:32] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=105, phase=decode
+[2026-09-15 07:32:32] [AICB调用] 第31次subprocess调用
+[2026-09-15 07:32:32] [未命中] key=model=Qwen3-Next-80B, ws=32, tp=1, pp=1, ep=32, bs=1, seq=106, phase=decode
+[2026-09-15 07:32:32] [AICB调用] 第32次subprocess调用
+[2026-09-15 07:32:32] 统计: hits=0, interp=0, calls=32, entries=0
+[2026-09-15 07:32:32] 查表索引已保存到 /Users/michaelsigamani/Documents/DevelopmentCode/2026-fall/SimAI/vidur-alibabacloud/data/aicb_workload/lookup_table.json
+[2026-09-15 07:33:35] AICBGlobalCache 初始化完成, 缓存目录: /Users/michaelsigamani/Documents/DevelopmentCode/2026-fall/SimAI/vidur-alibabacloud/data/aicb_workload/cache
+[2026-09-15 07:33:40] [未命中] key=model=Qwen3-Next-80B, ws=2, tp=1, pp=1, ep=2, bs=1, seq=100, phase=prefill
+[2026-09-15 07:33:40] [AICB调用] 第1次subprocess调用
+[2026-09-15 07:33:40] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=100, phase=decode
+[2026-09-15 07:33:40] [AICB调用] 第2次subprocess调用
+[2026-09-15 07:33:40] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=101, phase=decode
+[2026-09-15 07:33:40] [AICB调用] 第3次subprocess调用
+[2026-09-15 07:33:40] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=102, phase=decode
+[2026-09-15 07:33:40] [AICB调用] 第4次subprocess调用
+[2026-09-15 07:33:40] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=103, phase=decode
+[2026-09-15 07:33:40] [AICB调用] 第5次subprocess调用
+[2026-09-15 07:33:40] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=104, phase=decode
+[2026-09-15 07:33:40] [AICB调用] 第6次subprocess调用
+[2026-09-15 07:33:40] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=105, phase=decode
+[2026-09-15 07:33:40] [AICB调用] 第7次subprocess调用
+[2026-09-15 07:33:40] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=106, phase=decode
+[2026-09-15 07:33:40] [AICB调用] 第8次subprocess调用
+[2026-09-15 07:33:41] [未命中] key=model=Qwen3-Next-80B, ws=2, tp=1, pp=1, ep=2, bs=1, seq=100, phase=prefill
+[2026-09-15 07:33:41] [AICB调用] 第9次subprocess调用
+[2026-09-15 07:33:41] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=100, phase=decode
+[2026-09-15 07:33:41] [AICB调用] 第10次subprocess调用
+[2026-09-15 07:33:41] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=101, phase=decode
+[2026-09-15 07:33:41] [AICB调用] 第11次subprocess调用
+[2026-09-15 07:33:41] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=102, phase=decode
+[2026-09-15 07:33:41] [AICB调用] 第12次subprocess调用
+[2026-09-15 07:33:41] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=103, phase=decode
+[2026-09-15 07:33:41] [AICB调用] 第13次subprocess调用
+[2026-09-15 07:33:41] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=104, phase=decode
+[2026-09-15 07:33:41] [AICB调用] 第14次subprocess调用
+[2026-09-15 07:33:41] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=105, phase=decode
+[2026-09-15 07:33:41] [AICB调用] 第15次subprocess调用
+[2026-09-15 07:33:41] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=106, phase=decode
+[2026-09-15 07:33:41] [AICB调用] 第16次subprocess调用
+[2026-09-15 07:33:41] [未命中] key=model=Qwen3-Next-80B, ws=2, tp=1, pp=1, ep=2, bs=1, seq=100, phase=prefill
+[2026-09-15 07:33:41] [AICB调用] 第17次subprocess调用
+[2026-09-15 07:33:41] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=100, phase=decode
+[2026-09-15 07:33:41] [AICB调用] 第18次subprocess调用
+[2026-09-15 07:33:41] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=101, phase=decode
+[2026-09-15 07:33:41] [AICB调用] 第19次subprocess调用
+[2026-09-15 07:33:41] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=102, phase=decode
+[2026-09-15 07:33:41] [AICB调用] 第20次subprocess调用
+[2026-09-15 07:33:41] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=103, phase=decode
+[2026-09-15 07:33:41] [AICB调用] 第21次subprocess调用
+[2026-09-15 07:33:41] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=104, phase=decode
+[2026-09-15 07:33:41] [AICB调用] 第22次subprocess调用
+[2026-09-15 07:33:41] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=105, phase=decode
+[2026-09-15 07:33:41] [AICB调用] 第23次subprocess调用
+[2026-09-15 07:33:41] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=106, phase=decode
+[2026-09-15 07:33:41] [AICB调用] 第24次subprocess调用
+[2026-09-15 07:33:41] [未命中] key=model=Qwen3-Next-80B, ws=2, tp=1, pp=1, ep=2, bs=1, seq=100, phase=prefill
+[2026-09-15 07:33:41] [AICB调用] 第25次subprocess调用
+[2026-09-15 07:33:41] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=100, phase=decode
+[2026-09-15 07:33:41] [AICB调用] 第26次subprocess调用
+[2026-09-15 07:33:41] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=101, phase=decode
+[2026-09-15 07:33:41] [AICB调用] 第27次subprocess调用
+[2026-09-15 07:33:41] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=102, phase=decode
+[2026-09-15 07:33:41] [AICB调用] 第28次subprocess调用
+[2026-09-15 07:33:41] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=103, phase=decode
+[2026-09-15 07:33:41] [AICB调用] 第29次subprocess调用
+[2026-09-15 07:33:41] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=104, phase=decode
+[2026-09-15 07:33:41] [AICB调用] 第30次subprocess调用
+[2026-09-15 07:33:41] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=105, phase=decode
+[2026-09-15 07:33:41] [AICB调用] 第31次subprocess调用
+[2026-09-15 07:33:41] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=106, phase=decode
+[2026-09-15 07:33:41] [AICB调用] 第32次subprocess调用
+[2026-09-15 07:33:41] 统计: hits=0, interp=0, calls=32, entries=0
+[2026-09-15 07:33:41] 查表索引已保存到 /Users/michaelsigamani/Documents/DevelopmentCode/2026-fall/SimAI/vidur-alibabacloud/data/aicb_workload/lookup_table.json
+[2026-09-15 07:34:52] AICBGlobalCache 初始化完成, 缓存目录: /Users/michaelsigamani/Documents/DevelopmentCode/2026-fall/SimAI/vidur-alibabacloud/data/aicb_workload/cache
+[2026-09-15 07:34:57] [未命中] key=model=DeepSeek-671B, ws=16, tp=8, pp=1, ep=16, bs=1, seq=100, phase=prefill
+[2026-09-15 07:34:57] [AICB调用] 第1次subprocess调用
+[2026-09-15 07:34:57] [未命中] key=model=DeepSeek-671B, ws=16, tp=8, pp=1, ep=16, bs=1, seq=100, phase=prefill
+[2026-09-15 07:34:57] [AICB调用] 第2次subprocess调用
+[2026-09-15 07:34:57] [未命中] key=model=DeepSeek-671B, ws=48, tp=8, pp=1, ep=48, bs=1, seq=100, phase=decode
+[2026-09-15 07:34:57] [AICB调用] 第3次subprocess调用
+[2026-09-15 07:34:57] [未命中] key=model=DeepSeek-671B, ws=48, tp=8, pp=1, ep=48, bs=1, seq=101, phase=decode
+[2026-09-15 07:34:57] [AICB调用] 第4次subprocess调用
+[2026-09-15 07:34:57] [未命中] key=model=DeepSeek-671B, ws=48, tp=8, pp=1, ep=48, bs=1, seq=102, phase=decode
+[2026-09-15 07:34:57] [AICB调用] 第5次subprocess调用
+[2026-09-15 07:34:57] [未命中] key=model=DeepSeek-671B, ws=48, tp=8, pp=1, ep=48, bs=1, seq=103, phase=decode
+[2026-09-15 07:34:57] [AICB调用] 第6次subprocess调用
+[2026-09-15 07:34:57] [未命中] key=model=DeepSeek-671B, ws=48, tp=8, pp=1, ep=48, bs=1, seq=104, phase=decode
+[2026-09-15 07:34:57] [AICB调用] 第7次subprocess调用
+[2026-09-15 07:34:57] [未命中] key=model=DeepSeek-671B, ws=48, tp=8, pp=1, ep=48, bs=1, seq=105, phase=decode
+[2026-09-15 07:34:57] [AICB调用] 第8次subprocess调用
+[2026-09-15 07:34:57] [未命中] key=model=DeepSeek-671B, ws=48, tp=8, pp=1, ep=48, bs=1, seq=106, phase=decode
+[2026-09-15 07:34:57] [AICB调用] 第9次subprocess调用
+[2026-09-15 07:34:57] [未命中] key=model=DeepSeek-671B, ws=48, tp=8, pp=1, ep=48, bs=1, seq=100, phase=decode
+[2026-09-15 07:34:57] [AICB调用] 第10次subprocess调用
+[2026-09-15 07:34:57] [未命中] key=model=DeepSeek-671B, ws=48, tp=8, pp=1, ep=48, bs=1, seq=101, phase=decode
+[2026-09-15 07:34:57] [AICB调用] 第11次subprocess调用
+[2026-09-15 07:34:57] [未命中] key=model=DeepSeek-671B, ws=48, tp=8, pp=1, ep=48, bs=1, seq=102, phase=decode
+[2026-09-15 07:34:57] [AICB调用] 第12次subprocess调用
+[2026-09-15 07:34:57] [未命中] key=model=DeepSeek-671B, ws=48, tp=8, pp=1, ep=48, bs=1, seq=103, phase=decode
+[2026-09-15 07:34:57] [AICB调用] 第13次subprocess调用
+[2026-09-15 07:34:58] [未命中] key=model=DeepSeek-671B, ws=48, tp=8, pp=1, ep=48, bs=1, seq=104, phase=decode
+[2026-09-15 07:34:58] [AICB调用] 第14次subprocess调用
+[2026-09-15 07:34:58] [未命中] key=model=DeepSeek-671B, ws=48, tp=8, pp=1, ep=48, bs=1, seq=105, phase=decode
+[2026-09-15 07:34:58] [AICB调用] 第15次subprocess调用
+[2026-09-15 07:34:58] [未命中] key=model=DeepSeek-671B, ws=48, tp=8, pp=1, ep=48, bs=1, seq=106, phase=decode
+[2026-09-15 07:34:58] [AICB调用] 第16次subprocess调用
+[2026-09-15 07:34:58] [未命中] key=model=DeepSeek-671B, ws=16, tp=8, pp=1, ep=16, bs=1, seq=100, phase=prefill
+[2026-09-15 07:34:58] [AICB调用] 第17次subprocess调用
+[2026-09-15 07:34:58] [未命中] key=model=DeepSeek-671B, ws=48, tp=8, pp=1, ep=48, bs=1, seq=100, phase=decode
+[2026-09-15 07:34:58] [AICB调用] 第18次subprocess调用
+[2026-09-15 07:34:58] [未命中] key=model=DeepSeek-671B, ws=48, tp=8, pp=1, ep=48, bs=1, seq=101, phase=decode
+[2026-09-15 07:34:58] [AICB调用] 第19次subprocess调用
+[2026-09-15 07:34:58] [未命中] key=model=DeepSeek-671B, ws=48, tp=8, pp=1, ep=48, bs=1, seq=102, phase=decode
+[2026-09-15 07:34:58] [AICB调用] 第20次subprocess调用
+[2026-09-15 07:34:58] [未命中] key=model=DeepSeek-671B, ws=48, tp=8, pp=1, ep=48, bs=1, seq=103, phase=decode
+[2026-09-15 07:34:58] [AICB调用] 第21次subprocess调用
+[2026-09-15 07:34:58] [未命中] key=model=DeepSeek-671B, ws=48, tp=8, pp=1, ep=48, bs=1, seq=104, phase=decode
+[2026-09-15 07:34:58] [AICB调用] 第22次subprocess调用
+[2026-09-15 07:34:58] [未命中] key=model=DeepSeek-671B, ws=48, tp=8, pp=1, ep=48, bs=1, seq=105, phase=decode
+[2026-09-15 07:34:58] [AICB调用] 第23次subprocess调用
+[2026-09-15 07:34:58] [未命中] key=model=DeepSeek-671B, ws=48, tp=8, pp=1, ep=48, bs=1, seq=106, phase=decode
+[2026-09-15 07:34:58] [AICB调用] 第24次subprocess调用
+[2026-09-15 07:34:58] [未命中] key=model=DeepSeek-671B, ws=16, tp=8, pp=1, ep=16, bs=1, seq=100, phase=prefill
+[2026-09-15 07:34:58] [AICB调用] 第25次subprocess调用
+[2026-09-15 07:34:58] [未命中] key=model=DeepSeek-671B, ws=48, tp=8, pp=1, ep=48, bs=1, seq=100, phase=decode
+[2026-09-15 07:34:58] [AICB调用] 第26次subprocess调用
+[2026-09-15 07:34:58] [未命中] key=model=DeepSeek-671B, ws=48, tp=8, pp=1, ep=48, bs=1, seq=101, phase=decode
+[2026-09-15 07:34:58] [AICB调用] 第27次subprocess调用
+[2026-09-15 07:34:58] [未命中] key=model=DeepSeek-671B, ws=48, tp=8, pp=1, ep=48, bs=1, seq=102, phase=decode
+[2026-09-15 07:34:58] [AICB调用] 第28次subprocess调用
+[2026-09-15 07:34:58] [未命中] key=model=DeepSeek-671B, ws=48, tp=8, pp=1, ep=48, bs=1, seq=103, phase=decode
+[2026-09-15 07:34:58] [AICB调用] 第29次subprocess调用
+[2026-09-15 07:34:58] [未命中] key=model=DeepSeek-671B, ws=48, tp=8, pp=1, ep=48, bs=1, seq=104, phase=decode
+[2026-09-15 07:34:58] [AICB调用] 第30次subprocess调用
+[2026-09-15 07:34:58] [未命中] key=model=DeepSeek-671B, ws=48, tp=8, pp=1, ep=48, bs=1, seq=105, phase=decode
+[2026-09-15 07:34:58] [AICB调用] 第31次subprocess调用
+[2026-09-15 07:34:58] [未命中] key=model=DeepSeek-671B, ws=48, tp=8, pp=1, ep=48, bs=1, seq=106, phase=decode
+[2026-09-15 07:34:58] [AICB调用] 第32次subprocess调用
+[2026-09-15 07:34:58] 统计: hits=0, interp=0, calls=32, entries=0
+[2026-09-15 07:34:58] 查表索引已保存到 /Users/michaelsigamani/Documents/DevelopmentCode/2026-fall/SimAI/vidur-alibabacloud/data/aicb_workload/lookup_table.json
+[2026-09-15 07:36:06] AICBGlobalCache 初始化完成, 缓存目录: /Users/michaelsigamani/Documents/DevelopmentCode/2026-fall/SimAI/vidur-alibabacloud/data/aicb_workload/cache
+[2026-09-15 07:36:11] [未命中] key=model=Qwen3-Moe-235B, ws=8, tp=4, pp=1, ep=8, bs=1, seq=100, phase=prefill
+[2026-09-15 07:36:11] [AICB调用] 第1次subprocess调用
+[2026-09-15 07:36:11] [未命中] key=model=Qwen3-Moe-235B, ws=24, tp=4, pp=1, ep=24, bs=1, seq=100, phase=decode
+[2026-09-15 07:36:11] [AICB调用] 第2次subprocess调用
+[2026-09-15 07:36:11] [未命中] key=model=Qwen3-Moe-235B, ws=24, tp=4, pp=1, ep=24, bs=1, seq=101, phase=decode
+[2026-09-15 07:36:11] [AICB调用] 第3次subprocess调用
+[2026-09-15 07:36:11] [未命中] key=model=Qwen3-Moe-235B, ws=24, tp=4, pp=1, ep=24, bs=1, seq=102, phase=decode
+[2026-09-15 07:36:11] [AICB调用] 第4次subprocess调用
+[2026-09-15 07:36:11] [未命中] key=model=Qwen3-Moe-235B, ws=24, tp=4, pp=1, ep=24, bs=1, seq=103, phase=decode
+[2026-09-15 07:36:11] [AICB调用] 第5次subprocess调用
+[2026-09-15 07:36:11] [未命中] key=model=Qwen3-Moe-235B, ws=24, tp=4, pp=1, ep=24, bs=1, seq=104, phase=decode
+[2026-09-15 07:36:11] [AICB调用] 第6次subprocess调用
+[2026-09-15 07:36:11] [未命中] key=model=Qwen3-Moe-235B, ws=24, tp=4, pp=1, ep=24, bs=1, seq=105, phase=decode
+[2026-09-15 07:36:11] [AICB调用] 第7次subprocess调用
+[2026-09-15 07:36:11] [未命中] key=model=Qwen3-Moe-235B, ws=24, tp=4, pp=1, ep=24, bs=1, seq=106, phase=decode
+[2026-09-15 07:36:11] [AICB调用] 第8次subprocess调用
+[2026-09-15 07:36:11] [未命中] key=model=Qwen3-Moe-235B, ws=8, tp=4, pp=1, ep=8, bs=1, seq=100, phase=prefill
+[2026-09-15 07:36:11] [AICB调用] 第9次subprocess调用
+[2026-09-15 07:36:11] [未命中] key=model=Qwen3-Moe-235B, ws=24, tp=4, pp=1, ep=24, bs=1, seq=100, phase=decode
+[2026-09-15 07:36:11] [AICB调用] 第10次subprocess调用
+[2026-09-15 07:36:11] [未命中] key=model=Qwen3-Moe-235B, ws=24, tp=4, pp=1, ep=24, bs=1, seq=101, phase=decode
+[2026-09-15 07:36:11] [AICB调用] 第11次subprocess调用
+[2026-09-15 07:36:11] [未命中] key=model=Qwen3-Moe-235B, ws=24, tp=4, pp=1, ep=24, bs=1, seq=102, phase=decode
+[2026-09-15 07:36:11] [AICB调用] 第12次subprocess调用
+[2026-09-15 07:36:11] [未命中] key=model=Qwen3-Moe-235B, ws=24, tp=4, pp=1, ep=24, bs=1, seq=103, phase=decode
+[2026-09-15 07:36:11] [AICB调用] 第13次subprocess调用
+[2026-09-15 07:36:12] [未命中] key=model=Qwen3-Moe-235B, ws=24, tp=4, pp=1, ep=24, bs=1, seq=104, phase=decode
+[2026-09-15 07:36:12] [AICB调用] 第14次subprocess调用
+[2026-09-15 07:36:12] [未命中] key=model=Qwen3-Moe-235B, ws=24, tp=4, pp=1, ep=24, bs=1, seq=105, phase=decode
+[2026-09-15 07:36:12] [AICB调用] 第15次subprocess调用
+[2026-09-15 07:36:12] [未命中] key=model=Qwen3-Moe-235B, ws=24, tp=4, pp=1, ep=24, bs=1, seq=106, phase=decode
+[2026-09-15 07:36:12] [AICB调用] 第16次subprocess调用
+[2026-09-15 07:36:12] [未命中] key=model=Qwen3-Moe-235B, ws=8, tp=4, pp=1, ep=8, bs=1, seq=100, phase=prefill
+[2026-09-15 07:36:12] [AICB调用] 第17次subprocess调用
+[2026-09-15 07:36:12] [未命中] key=model=Qwen3-Moe-235B, ws=24, tp=4, pp=1, ep=24, bs=1, seq=100, phase=decode
+[2026-09-15 07:36:12] [AICB调用] 第18次subprocess调用
+[2026-09-15 07:36:12] [未命中] key=model=Qwen3-Moe-235B, ws=24, tp=4, pp=1, ep=24, bs=1, seq=101, phase=decode
+[2026-09-15 07:36:12] [AICB调用] 第19次subprocess调用
+[2026-09-15 07:36:12] [未命中] key=model=Qwen3-Moe-235B, ws=24, tp=4, pp=1, ep=24, bs=1, seq=102, phase=decode
+[2026-09-15 07:36:12] [AICB调用] 第20次subprocess调用
+[2026-09-15 07:36:12] [未命中] key=model=Qwen3-Moe-235B, ws=24, tp=4, pp=1, ep=24, bs=1, seq=103, phase=decode
+[2026-09-15 07:36:12] [AICB调用] 第21次subprocess调用
+[2026-09-15 07:36:12] [未命中] key=model=Qwen3-Moe-235B, ws=24, tp=4, pp=1, ep=24, bs=1, seq=104, phase=decode
+[2026-09-15 07:36:12] [AICB调用] 第22次subprocess调用
+[2026-09-15 07:36:12] [未命中] key=model=Qwen3-Moe-235B, ws=24, tp=4, pp=1, ep=24, bs=1, seq=105, phase=decode
+[2026-09-15 07:36:12] [AICB调用] 第23次subprocess调用
+[2026-09-15 07:36:12] [未命中] key=model=Qwen3-Moe-235B, ws=24, tp=4, pp=1, ep=24, bs=1, seq=106, phase=decode
+[2026-09-15 07:36:12] [AICB调用] 第24次subprocess调用
+[2026-09-15 07:36:12] [未命中] key=model=Qwen3-Moe-235B, ws=8, tp=4, pp=1, ep=8, bs=1, seq=100, phase=prefill
+[2026-09-15 07:36:12] [AICB调用] 第25次subprocess调用
+[2026-09-15 07:36:12] [未命中] key=model=Qwen3-Moe-235B, ws=24, tp=4, pp=1, ep=24, bs=1, seq=100, phase=decode
+[2026-09-15 07:36:12] [AICB调用] 第26次subprocess调用
+[2026-09-15 07:36:12] [未命中] key=model=Qwen3-Moe-235B, ws=24, tp=4, pp=1, ep=24, bs=1, seq=101, phase=decode
+[2026-09-15 07:36:12] [AICB调用] 第27次subprocess调用
+[2026-09-15 07:36:12] [未命中] key=model=Qwen3-Moe-235B, ws=24, tp=4, pp=1, ep=24, bs=1, seq=102, phase=decode
+[2026-09-15 07:36:12] [AICB调用] 第28次subprocess调用
+[2026-09-15 07:36:12] [未命中] key=model=Qwen3-Moe-235B, ws=24, tp=4, pp=1, ep=24, bs=1, seq=103, phase=decode
+[2026-09-15 07:36:12] [AICB调用] 第29次subprocess调用
+[2026-09-15 07:36:12] [未命中] key=model=Qwen3-Moe-235B, ws=24, tp=4, pp=1, ep=24, bs=1, seq=104, phase=decode
+[2026-09-15 07:36:12] [AICB调用] 第30次subprocess调用
+[2026-09-15 07:36:12] [未命中] key=model=Qwen3-Moe-235B, ws=24, tp=4, pp=1, ep=24, bs=1, seq=105, phase=decode
+[2026-09-15 07:36:12] [AICB调用] 第31次subprocess调用
+[2026-09-15 07:36:12] [未命中] key=model=Qwen3-Moe-235B, ws=24, tp=4, pp=1, ep=24, bs=1, seq=106, phase=decode
+[2026-09-15 07:36:12] [AICB调用] 第32次subprocess调用
+[2026-09-15 07:36:12] 统计: hits=0, interp=0, calls=32, entries=0
+[2026-09-15 07:36:12] 查表索引已保存到 /Users/michaelsigamani/Documents/DevelopmentCode/2026-fall/SimAI/vidur-alibabacloud/data/aicb_workload/lookup_table.json
+[2026-09-15 07:50:47] AICBGlobalCache 初始化完成, 缓存目录: /Users/michaelsigamani/Documents/DevelopmentCode/2026-fall/SimAI/vidur-alibabacloud/data/aicb_workload/cache
+[2026-09-15 07:51:36] AICBGlobalCache 初始化完成, 缓存目录: /Users/michaelsigamani/Documents/DevelopmentCode/2026-fall/SimAI/vidur-alibabacloud/data/aicb_workload/cache
+[2026-09-15 07:51:40] AICBGlobalCache 初始化完成, 缓存目录: /Users/michaelsigamani/Documents/DevelopmentCode/2026-fall/SimAI/vidur-alibabacloud/data/aicb_workload/cache
+[2026-09-15 07:54:09] AICBGlobalCache 初始化完成, 缓存目录: /Users/michaelsigamani/Documents/DevelopmentCode/2026-fall/SimAI/vidur-alibabacloud/data/aicb_workload/cache
+[2026-09-15 07:54:39] AICBGlobalCache 初始化完成, 缓存目录: /Users/michaelsigamani/Documents/DevelopmentCode/2026-fall/SimAI/vidur-alibabacloud/data/aicb_workload/cache
+[2026-09-15 07:54:51] AICBGlobalCache 初始化完成, 缓存目录: /Users/michaelsigamani/Documents/DevelopmentCode/2026-fall/SimAI/vidur-alibabacloud/data/aicb_workload/cache
+[2026-09-15 07:54:56] [未命中] key=model=Qwen3-Next-80B, ws=2, tp=1, pp=1, ep=2, bs=1, seq=100, phase=prefill
+[2026-09-15 07:54:56] [AICB调用] 第1次subprocess调用
+[2026-09-15 07:54:56] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=100, phase=decode
+[2026-09-15 07:54:56] [AICB调用] 第2次subprocess调用
+[2026-09-15 07:54:56] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=101, phase=decode
+[2026-09-15 07:54:56] [AICB调用] 第3次subprocess调用
+[2026-09-15 07:54:56] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=102, phase=decode
+[2026-09-15 07:54:56] [AICB调用] 第4次subprocess调用
+[2026-09-15 07:54:56] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=103, phase=decode
+[2026-09-15 07:54:56] [AICB调用] 第5次subprocess调用
+[2026-09-15 07:54:56] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=104, phase=decode
+[2026-09-15 07:54:56] [AICB调用] 第6次subprocess调用
+[2026-09-15 07:54:56] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=105, phase=decode
+[2026-09-15 07:54:56] [AICB调用] 第7次subprocess调用
+[2026-09-15 07:54:56] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=106, phase=decode
+[2026-09-15 07:54:56] [AICB调用] 第8次subprocess调用
+[2026-09-15 07:54:56] [未命中] key=model=Qwen3-Next-80B, ws=2, tp=1, pp=1, ep=2, bs=1, seq=100, phase=prefill
+[2026-09-15 07:54:56] [AICB调用] 第9次subprocess调用
+[2026-09-15 07:54:56] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=100, phase=decode
+[2026-09-15 07:54:56] [AICB调用] 第10次subprocess调用
+[2026-09-15 07:54:56] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=101, phase=decode
+[2026-09-15 07:54:56] [AICB调用] 第11次subprocess调用
+[2026-09-15 07:54:56] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=102, phase=decode
+[2026-09-15 07:54:56] [AICB调用] 第12次subprocess调用
+[2026-09-15 07:54:56] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=103, phase=decode
+[2026-09-15 07:54:56] [AICB调用] 第13次subprocess调用
+[2026-09-15 07:54:56] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=104, phase=decode
+[2026-09-15 07:54:56] [AICB调用] 第14次subprocess调用
+[2026-09-15 07:54:56] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=105, phase=decode
+[2026-09-15 07:54:56] [AICB调用] 第15次subprocess调用
+[2026-09-15 07:54:56] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=106, phase=decode
+[2026-09-15 07:54:56] [AICB调用] 第16次subprocess调用
+[2026-09-15 07:54:57] [未命中] key=model=Qwen3-Next-80B, ws=2, tp=1, pp=1, ep=2, bs=1, seq=100, phase=prefill
+[2026-09-15 07:54:57] [AICB调用] 第17次subprocess调用
+[2026-09-15 07:54:57] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=100, phase=decode
+[2026-09-15 07:54:57] [AICB调用] 第18次subprocess调用
+[2026-09-15 07:54:57] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=101, phase=decode
+[2026-09-15 07:54:57] [AICB调用] 第19次subprocess调用
+[2026-09-15 07:54:57] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=102, phase=decode
+[2026-09-15 07:54:57] [AICB调用] 第20次subprocess调用
+[2026-09-15 07:54:57] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=103, phase=decode
+[2026-09-15 07:54:57] [AICB调用] 第21次subprocess调用
+[2026-09-15 07:54:57] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=104, phase=decode
+[2026-09-15 07:54:57] [AICB调用] 第22次subprocess调用
+[2026-09-15 07:54:57] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=105, phase=decode
+[2026-09-15 07:54:57] [AICB调用] 第23次subprocess调用
+[2026-09-15 07:54:57] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=106, phase=decode
+[2026-09-15 07:54:57] [AICB调用] 第24次subprocess调用
+[2026-09-15 07:54:57] [未命中] key=model=Qwen3-Next-80B, ws=2, tp=1, pp=1, ep=2, bs=1, seq=100, phase=prefill
+[2026-09-15 07:54:57] [AICB调用] 第25次subprocess调用
+[2026-09-15 07:54:57] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=100, phase=decode
+[2026-09-15 07:54:57] [AICB调用] 第26次subprocess调用
+[2026-09-15 07:54:57] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=101, phase=decode
+[2026-09-15 07:54:57] [AICB调用] 第27次subprocess调用
+[2026-09-15 07:54:57] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=102, phase=decode
+[2026-09-15 07:54:57] [AICB调用] 第28次subprocess调用
+[2026-09-15 07:54:57] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=103, phase=decode
+[2026-09-15 07:54:57] [AICB调用] 第29次subprocess调用
+[2026-09-15 07:54:57] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=104, phase=decode
+[2026-09-15 07:54:57] [AICB调用] 第30次subprocess调用
+[2026-09-15 07:54:57] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=105, phase=decode
+[2026-09-15 07:54:57] [AICB调用] 第31次subprocess调用
+[2026-09-15 07:54:57] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=106, phase=decode
+[2026-09-15 07:54:57] [AICB调用] 第32次subprocess调用
+[2026-09-15 07:54:57] [未命中] key=model=Qwen3-Next-80B, ws=2, tp=1, pp=1, ep=2, bs=1, seq=100, phase=prefill
+[2026-09-15 07:54:57] [AICB调用] 第33次subprocess调用
+[2026-09-15 07:54:57] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=100, phase=decode
+[2026-09-15 07:54:57] [AICB调用] 第34次subprocess调用
+[2026-09-15 07:54:57] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=101, phase=decode
+[2026-09-15 07:54:57] [AICB调用] 第35次subprocess调用
+[2026-09-15 07:54:57] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=102, phase=decode
+[2026-09-15 07:54:57] [AICB调用] 第36次subprocess调用
+[2026-09-15 07:54:57] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=103, phase=decode
+[2026-09-15 07:54:57] [AICB调用] 第37次subprocess调用
+[2026-09-15 07:54:57] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=104, phase=decode
+[2026-09-15 07:54:57] [AICB调用] 第38次subprocess调用
+[2026-09-15 07:54:58] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=105, phase=decode
+[2026-09-15 07:54:58] [AICB调用] 第39次subprocess调用
+[2026-09-15 07:54:58] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=106, phase=decode
+[2026-09-15 07:54:58] [AICB调用] 第40次subprocess调用
+[2026-09-15 07:54:58] [未命中] key=model=Qwen3-Next-80B, ws=2, tp=1, pp=1, ep=2, bs=1, seq=100, phase=prefill
+[2026-09-15 07:54:58] [AICB调用] 第41次subprocess调用
+[2026-09-15 07:54:58] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=100, phase=decode
+[2026-09-15 07:54:58] [AICB调用] 第42次subprocess调用
+[2026-09-15 07:54:58] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=101, phase=decode
+[2026-09-15 07:54:58] [AICB调用] 第43次subprocess调用
+[2026-09-15 07:54:58] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=102, phase=decode
+[2026-09-15 07:54:58] [AICB调用] 第44次subprocess调用
+[2026-09-15 07:54:58] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=103, phase=decode
+[2026-09-15 07:54:58] [AICB调用] 第45次subprocess调用
+[2026-09-15 07:54:58] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=104, phase=decode
+[2026-09-15 07:54:58] [AICB调用] 第46次subprocess调用
+[2026-09-15 07:54:58] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=105, phase=decode
+[2026-09-15 07:54:58] [AICB调用] 第47次subprocess调用
+[2026-09-15 07:54:58] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=106, phase=decode
+[2026-09-15 07:54:58] [AICB调用] 第48次subprocess调用
+[2026-09-15 07:54:58] 统计: hits=0, interp=0, calls=48, entries=0
+[2026-09-15 07:54:58] 查表索引已保存到 /Users/michaelsigamani/Documents/DevelopmentCode/2026-fall/SimAI/vidur-alibabacloud/data/aicb_workload/lookup_table.json
+[2026-09-15 07:56:20] AICBGlobalCache 初始化完成, 缓存目录: /Users/michaelsigamani/Documents/DevelopmentCode/2026-fall/SimAI/vidur-alibabacloud/data/aicb_workload/cache
+[2026-09-15 07:56:30] AICBGlobalCache 初始化完成, 缓存目录: /Users/michaelsigamani/Documents/DevelopmentCode/2026-fall/SimAI/vidur-alibabacloud/data/aicb_workload/cache
+[2026-09-15 07:56:35] [未命中] key=model=Qwen3-Next-80B, ws=2, tp=1, pp=1, ep=2, bs=1, seq=32, phase=prefill
+[2026-09-15 07:56:35] [AICB调用] 第1次subprocess调用
+[2026-09-15 07:56:35] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=32, phase=decode
+[2026-09-15 07:56:35] [AICB调用] 第2次subprocess调用
+[2026-09-15 07:56:35] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=33, phase=decode
+[2026-09-15 07:56:35] [AICB调用] 第3次subprocess调用
+[2026-09-15 07:56:35] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=34, phase=decode
+[2026-09-15 07:56:35] [AICB调用] 第4次subprocess调用
+[2026-09-15 07:56:35] 统计: hits=0, interp=0, calls=4, entries=0
+[2026-09-15 07:56:35] 查表索引已保存到 /Users/michaelsigamani/Documents/DevelopmentCode/2026-fall/SimAI/vidur-alibabacloud/data/aicb_workload/lookup_table.json
+[2026-09-15 07:57:12] AICBGlobalCache 初始化完成, 缓存目录: /Users/michaelsigamani/Documents/DevelopmentCode/2026-fall/SimAI/vidur-alibabacloud/data/aicb_workload/cache
+[2026-09-15 07:57:12] AICBGlobalCache 初始化完成, 缓存目录: /Users/michaelsigamani/Documents/DevelopmentCode/2026-fall/SimAI/vidur-alibabacloud/data/aicb_workload/cache
+[2026-09-15 07:57:17] [未命中] key=model=Qwen3-Next-80B, ws=2, tp=1, pp=1, ep=2, bs=1, seq=32, phase=prefill
+[2026-09-15 07:57:17] [AICB调用] 第1次subprocess调用
+[2026-09-15 07:57:17] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=32, phase=decode
+[2026-09-15 07:57:17] [AICB调用] 第2次subprocess调用
+[2026-09-15 07:57:17] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=33, phase=decode
+[2026-09-15 07:57:17] [AICB调用] 第3次subprocess调用
+[2026-09-15 07:57:17] [未命中] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=34, phase=decode
+[2026-09-15 07:57:17] [AICB调用] 第4次subprocess调用
+[2026-09-15 07:57:17] 统计: hits=0, interp=0, calls=4, entries=0
+[2026-09-15 07:57:17] 查表索引已保存到 /Users/michaelsigamani/Documents/DevelopmentCode/2026-fall/SimAI/vidur-alibabacloud/data/aicb_workload/lookup_table.json
+[2026-09-15 07:57:38] AICBGlobalCache , : /Users/michaelsigamani/Documents/DevelopmentCode/2026-fall/SimAI/vidur-alibabacloud/data/aicb_workload/cache
+[2026-09-15 07:57:38] AICBGlobalCache , : /Users/michaelsigamani/Documents/DevelopmentCode/2026-fall/SimAI/vidur-alibabacloud/data/aicb_workload/cache
+[2026-09-15 07:57:43] [] key=model=Qwen3-Next-80B, ws=2, tp=1, pp=1, ep=2, bs=1, seq=32, phase=prefill
+[2026-09-15 07:57:43] [AICB] 1subprocess
+[2026-09-15 07:57:43] [] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=32, phase=decode
+[2026-09-15 07:57:43] [AICB] 2subprocess
+[2026-09-15 07:57:43] [] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=33, phase=decode
+[2026-09-15 07:57:43] [AICB] 3subprocess
+[2026-09-15 07:57:43] [] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=34, phase=decode
+[2026-09-15 07:57:43] [AICB] 4subprocess
+[2026-09-15 07:57:43] : hits=0, interp=0, calls=4, entries=0
+[2026-09-15 07:57:43]  /Users/michaelsigamani/Documents/DevelopmentCode/2026-fall/SimAI/vidur-alibabacloud/data/aicb_workload/lookup_table.json
+[2026-09-15 07:57:50] AICBGlobalCache , : /Users/michaelsigamani/Documents/DevelopmentCode/2026-fall/SimAI/vidur-alibabacloud/data/aicb_workload/cache
+[2026-09-15 07:57:54] [] key=model=Qwen3-Next-80B, ws=2, tp=1, pp=1, ep=2, bs=1, seq=100, phase=prefill
+[2026-09-15 07:57:54] [AICB] 1subprocess
+[2026-09-15 07:57:54] [] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=100, phase=decode
+[2026-09-15 07:57:54] [AICB] 2subprocess
+[2026-09-15 07:57:54] [] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=101, phase=decode
+[2026-09-15 07:57:54] [AICB] 3subprocess
+[2026-09-15 07:57:55] [] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=102, phase=decode
+[2026-09-15 07:57:55] [AICB] 4subprocess
+[2026-09-15 07:57:55] [] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=103, phase=decode
+[2026-09-15 07:57:55] [AICB] 5subprocess
+[2026-09-15 07:57:55] [] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=104, phase=decode
+[2026-09-15 07:57:55] [AICB] 6subprocess
+[2026-09-15 07:57:55] [] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=105, phase=decode
+[2026-09-15 07:57:55] [AICB] 7subprocess
+[2026-09-15 07:57:55] [] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=106, phase=decode
+[2026-09-15 07:57:55] [AICB] 8subprocess
+[2026-09-15 07:57:55] [] key=model=Qwen3-Next-80B, ws=2, tp=1, pp=1, ep=2, bs=1, seq=100, phase=prefill
+[2026-09-15 07:57:55] [AICB] 9subprocess
+[2026-09-15 07:57:55] [] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=100, phase=decode
+[2026-09-15 07:57:55] [AICB] 10subprocess
+[2026-09-15 07:57:55] [] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=101, phase=decode
+[2026-09-15 07:57:55] [AICB] 11subprocess
+[2026-09-15 07:57:55] [] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=102, phase=decode
+[2026-09-15 07:57:55] [AICB] 12subprocess
+[2026-09-15 07:57:55] [] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=103, phase=decode
+[2026-09-15 07:57:55] [AICB] 13subprocess
+[2026-09-15 07:57:55] [] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=104, phase=decode
+[2026-09-15 07:57:55] [AICB] 14subprocess
+[2026-09-15 07:57:55] [] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=105, phase=decode
+[2026-09-15 07:57:55] [AICB] 15subprocess
+[2026-09-15 07:57:55] [] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=106, phase=decode
+[2026-09-15 07:57:55] [AICB] 16subprocess
+[2026-09-15 07:57:55] [] key=model=Qwen3-Next-80B, ws=2, tp=1, pp=1, ep=2, bs=1, seq=100, phase=prefill
+[2026-09-15 07:57:55] [AICB] 17subprocess
+[2026-09-15 07:57:55] [] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=100, phase=decode
+[2026-09-15 07:57:55] [AICB] 18subprocess
+[2026-09-15 07:57:55] [] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=101, phase=decode
+[2026-09-15 07:57:55] [AICB] 19subprocess
+[2026-09-15 07:57:55] [] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=102, phase=decode
+[2026-09-15 07:57:55] [AICB] 20subprocess
+[2026-09-15 07:57:55] [] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=103, phase=decode
+[2026-09-15 07:57:55] [AICB] 21subprocess
+[2026-09-15 07:57:55] [] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=104, phase=decode
+[2026-09-15 07:57:55] [AICB] 22subprocess
+[2026-09-15 07:57:55] [] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=105, phase=decode
+[2026-09-15 07:57:55] [AICB] 23subprocess
+[2026-09-15 07:57:55] [] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=106, phase=decode
+[2026-09-15 07:57:55] [AICB] 24subprocess
+[2026-09-15 07:57:56] [] key=model=Qwen3-Next-80B, ws=2, tp=1, pp=1, ep=2, bs=1, seq=100, phase=prefill
+[2026-09-15 07:57:56] [AICB] 25subprocess
+[2026-09-15 07:57:56] [] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=100, phase=decode
+[2026-09-15 07:57:56] [AICB] 26subprocess
+[2026-09-15 07:57:56] [] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=101, phase=decode
+[2026-09-15 07:57:56] [AICB] 27subprocess
+[2026-09-15 07:57:56] [] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=102, phase=decode
+[2026-09-15 07:57:56] [AICB] 28subprocess
+[2026-09-15 07:57:56] [] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=103, phase=decode
+[2026-09-15 07:57:56] [AICB] 29subprocess
+[2026-09-15 07:57:56] [] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=104, phase=decode
+[2026-09-15 07:57:56] [AICB] 30subprocess
+[2026-09-15 07:57:56] [] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=105, phase=decode
+[2026-09-15 07:57:56] [AICB] 31subprocess
+[2026-09-15 07:57:56] [] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=106, phase=decode
+[2026-09-15 07:57:56] [AICB] 32subprocess
+[2026-09-15 07:57:56] [] key=model=Qwen3-Next-80B, ws=2, tp=1, pp=1, ep=2, bs=1, seq=100, phase=prefill
+[2026-09-15 07:57:56] [AICB] 33subprocess
+[2026-09-15 07:57:56] [] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=100, phase=decode
+[2026-09-15 07:57:56] [AICB] 34subprocess
+[2026-09-15 07:57:56] [] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=101, phase=decode
+[2026-09-15 07:57:56] [AICB] 35subprocess
+[2026-09-15 07:57:56] [] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=102, phase=decode
+[2026-09-15 07:57:56] [AICB] 36subprocess
+[2026-09-15 07:57:56] [] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=103, phase=decode
+[2026-09-15 07:57:56] [AICB] 37subprocess
+[2026-09-15 07:57:56] [] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=104, phase=decode
+[2026-09-15 07:57:56] [AICB] 38subprocess
+[2026-09-15 07:57:56] [] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=105, phase=decode
+[2026-09-15 07:57:56] [AICB] 39subprocess
+[2026-09-15 07:57:56] [] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=106, phase=decode
+[2026-09-15 07:57:56] [AICB] 40subprocess
+[2026-09-15 07:57:56] [] key=model=Qwen3-Next-80B, ws=2, tp=1, pp=1, ep=2, bs=1, seq=100, phase=prefill
+[2026-09-15 07:57:56] [AICB] 41subprocess
+[2026-09-15 07:57:56] [] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=100, phase=decode
+[2026-09-15 07:57:56] [AICB] 42subprocess
+[2026-09-15 07:57:56] [] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=101, phase=decode
+[2026-09-15 07:57:56] [AICB] 43subprocess
+[2026-09-15 07:57:56] [] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=102, phase=decode
+[2026-09-15 07:57:56] [AICB] 44subprocess
+[2026-09-15 07:57:56] [] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=103, phase=decode
+[2026-09-15 07:57:56] [AICB] 45subprocess
+[2026-09-15 07:57:56] [] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=104, phase=decode
+[2026-09-15 07:57:56] [AICB] 46subprocess
+[2026-09-15 07:57:57] [] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=105, phase=decode
+[2026-09-15 07:57:57] [AICB] 47subprocess
+[2026-09-15 07:57:57] [] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=106, phase=decode
+[2026-09-15 07:57:57] [AICB] 48subprocess
+[2026-09-15 07:57:57] : hits=0, interp=0, calls=48, entries=0
+[2026-09-15 07:57:57]  /Users/michaelsigamani/Documents/DevelopmentCode/2026-fall/SimAI/vidur-alibabacloud/data/aicb_workload/lookup_table.json
+[2026-09-15 08:11:07] AICBGlobalCache , : /Users/michaelsigamani/Documents/DevelopmentCode/2026-fall/SimAI/vidur-alibabacloud/data/aicb_workload/cache
+[2026-09-15 08:11:07] AICBGlobalCache , : /Users/michaelsigamani/Documents/DevelopmentCode/2026-fall/SimAI/vidur-alibabacloud/data/aicb_workload/cache
+[2026-09-15 08:11:13] [] key=model=Qwen3-Next-80B, ws=2, tp=1, pp=1, ep=2, bs=1, seq=32, phase=prefill
+[2026-09-15 08:11:13] [AICB] 1subprocess
+[2026-09-15 08:11:13] [] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=32, phase=decode
+[2026-09-15 08:11:13] [AICB] 2subprocess
+[2026-09-15 08:11:13] [] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=33, phase=decode
+[2026-09-15 08:11:13] [AICB] 3subprocess
+[2026-09-15 08:11:13] [] key=model=Qwen3-Next-80B, ws=6, tp=1, pp=1, ep=6, bs=1, seq=34, phase=decode
+[2026-09-15 08:11:13] [AICB] 4subprocess
+[2026-09-15 08:11:13] : hits=0, interp=0, calls=4, entries=0
+[2026-09-15 08:11:13]  /Users/michaelsigamani/Documents/DevelopmentCode/2026-fall/SimAI/vidur-alibabacloud/data/aicb_workload/lookup_table.json

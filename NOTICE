@@ -1,0 +1,9 @@
+Odyn Simulator
+
+This project includes and modifies code from upstream projects:
+
+- Vidur by Microsoft Research India Systems Group and Georgia Tech Systems for AI Lab.
+- Additional simulator adaptations from Odyn contributors based on prior Alibaba Cloud SimAI integration work.
+
+All upstream copyrights, license terms, and attribution requirements remain in effect.
+See LICENSE and upstream documentation for complete legal notices.
