@@ -437,3 +437,102 @@ class Qwen72BModelConfig(QwenModelConfig):
         return "Qwen/Qwen-72B"
 
 
+@dataclass
+class Qwen25_7BInstructModelConfig(QwenModelConfig):
+    num_layers: int = 28
+    num_q_heads: int = 28
+    num_kv_heads: int = 4
+    embedding_dim: int = 3584
+    mlp_hidden_dim: int = 18944
+    rope_theta: Optional[float] = 1000000
+
+    @staticmethod
+    def get_name():
+        return "Qwen/Qwen2.5-7B-Instruct"
+
+
+@dataclass
+class Qwen25_14BInstructModelConfig(QwenModelConfig):
+    num_layers: int = 48
+    num_q_heads: int = 40
+    num_kv_heads: int = 8
+    embedding_dim: int = 5120
+    mlp_hidden_dim: int = 13696
+    rope_theta: Optional[float] = 1000000
+
+    @staticmethod
+    def get_name():
+        return "Qwen/Qwen2.5-14B-Instruct"
+
+
+@dataclass
+class Qwen25_32BInstructModelConfig(QwenModelConfig):
+    num_layers: int = 64
+    num_q_heads: int = 40
+    num_kv_heads: int = 8
+    embedding_dim: int = 5120
+    mlp_hidden_dim: int = 27392
+    rope_theta: Optional[float] = 1000000
+
+    @staticmethod
+    def get_name():
+        return "Qwen/Qwen2.5-32B-Instruct"
+
+
+@dataclass
+class Qwen25_72BInstructModelConfig(QwenModelConfig):
+    num_layers: int = 80
+    num_q_heads: int = 64
+    num_kv_heads: int = 8
+    embedding_dim: int = 8192
+    mlp_hidden_dim: int = 29568
+    rope_theta: Optional[float] = 1000000
+
+    @staticmethod
+    def get_name():
+        return "Qwen/Qwen2.5-72B-Instruct"
+
+
+@dataclass
+class Qwen7BModelConfig(QwenModelConfig):
+    num_layers: int = 28
+    num_q_heads: int = 28
+    num_kv_heads: int = 4
+    embedding_dim: int = 3584
+    mlp_hidden_dim: int = 18944
+    rope_theta: Optional[float] = 1000000
+    vocab_size: int = 152064
+
+    @staticmethod
+    def get_name():
+        return "qwen-7b"
+
+
+@dataclass
+class Qwen14BModelConfig(QwenModelConfig):
+    num_layers: int = 40
+    num_q_heads: int = 40
+    num_kv_heads: int = 8
+    embedding_dim: int = 5120
+    mlp_hidden_dim: int = 13696
+    rope_theta: Optional[float] = 1000000
+    vocab_size: int = 152064
+
+    @staticmethod
+    def get_name():
+        return "qwen-14b"
+
+
+@dataclass
+class Qwen32BModelConfig(QwenModelConfig):
+    num_layers: int = 64
+    num_q_heads: int = 40
+    num_kv_heads: int = 8
+    embedding_dim: int = 5120
+    mlp_hidden_dim: int = 27392
+    rope_theta: Optional[float] = 1000000
+    vocab_size: int = 152064
+
+    @staticmethod
+    def get_name():
+        return "qwen-32b"

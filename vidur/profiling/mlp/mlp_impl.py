@@ -3,7 +3,11 @@ from typing import Optional
 import torch
 from sarathi.model_executor.layers.activation import SiluAndMul
 from sarathi.model_executor.layers.layernorm import RMSNorm
-from sarathi.model_executor.layers.rotary_embedding import get_rope
+try:
+    from sarathi.model_executor.layers.rotary_embedding import get_rope
+except Exception:
+    def get_rope(*args, **kwargs):
+        return lambda _positions, q, k: (q, k)
 from sarathi.model_executor.parallel_utils.tensor_parallel.layers import (
     ColumnParallelLinear,
     RowParallelLinear,

@@ -597,6 +597,25 @@ class ReplicaConfig:
         self.node_config: BaseNodeSKUConfig = BaseNodeSKUConfig.create_from_type_string(
             self.network_device
         )
+        if self.network_device == "gb10_pairwise_qsfp":
+            invalid = []
+            if self.tensor_parallel_size > 1:
+                invalid.append(f"tp={self.tensor_parallel_size}")
+            if self.num_pipeline_stages > 1:
+                invalid.append(f"pp={self.num_pipeline_stages}")
+            if (self.prefill_tensor_parallel_size or 1) > 1:
+                invalid.append(f"prefill_tp={self.prefill_tensor_parallel_size}")
+            if (self.prefill_num_pipeline_stages or 1) > 1:
+                invalid.append(f"prefill_pp={self.prefill_num_pipeline_stages}")
+            if (self.decode_tensor_parallel_size or 1) > 1:
+                invalid.append(f"decode_tp={self.decode_tensor_parallel_size}")
+            if (self.decode_num_pipeline_stages or 1) > 1:
+                invalid.append(f"decode_pp={self.decode_num_pipeline_stages}")
+            if invalid:
+                raise ValueError(
+                    "GB10 network_device=gb10_pairwise_qsfp supports TP=1 and PP=1 only "
+                    f"(unsupported: 1 GPU/node). Requested: {', '.join(invalid)}"
+                )
 
 
 @dataclass

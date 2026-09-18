@@ -4,11 +4,15 @@ Odyn Simulator Dashboard is a Streamlit interface for running PD-disaggregation 
 
 ## What changed
 
-- Rebranded dashboard title and defaults for Odyn.
-- Fixed startup failure caused by incorrect imports of `Request` from `vidur.entities.batch`.
-- Added full stderr and stdout rendering in the UI to keep complete tracebacks visible.
-- Added optional GCS-backed output storage for Cloud Run using `gs://bucket/prefix` in **Output root**.
-- Added Terraform infrastructure under `infra/` and automated deployment script `deploy.sh`.
+- Dashboard now discovers runs by `request_metrics.csv` recursively under one output root, so invalid folders are not shown in the picker.
+- Missing metrics now surfaces run stderr from `stderr.log` directly in the UI when simulation output generation fails.
+- Output root is controlled from one setting (`ODYN_OUTPUT_ROOT`, overridable in sidebar).
+- Runs are blocked when required profiling inputs are missing for the selected model/SKU/network profile.
+- Capacity-planning charts only include empirical `backend=vidur` runs; non-empirical backends are excluded.
+- Added SKU/model presets for Qwen 7B/14B/32B and Qwen3-Next-80B, including A100 80GB 2x/4x/8x node options.
+- Added capacity-planning visualizations: three SLO/capacity-per-dollar scatters, best-config marker, parallel-coordinates, and misconfiguration-cost heatmap.
+- Added profiling validation script and profiling data layout/docs under `data/profiling/`.
+- Model, SKU, and preset dropdowns are registry-driven from `data/registry/models.yml`, `data/registry/skus.yml`, and `data/registry/presets.yml`.
 
 ## Local run
 
@@ -21,6 +25,71 @@ streamlit run streamlit_simulator_dashboard.py --server.port=8502
 ```
 
 Open `http://localhost:8502`.
+
+## Profiling data layout
+
+Vidur expects profiling inputs in this structure:
+
+```text
+data/profiling/
+  compute/
+    <sku>/
+      <model>/
+        mlp.csv
+        attention.csv
+  network/
+    <sku>/
+      all_reduce.csv
+      send_recv.csv
+  cpu_overhead/
+    <network_device>/
+      <model>/
+        cpu_overheads.csv
+```
+
+Current Odyn-specific SKU aliases used by configs/UI:
+
+- `h100`, `a100`, `mi300x`, `radeon_pro_w7900`
+- network device names include `a100_2gpu_nvlink`, `a100_pairwise_nvlink`, `a100_dgx`, `h100_dgx`, `mi300x_1gpu_pcie`, `radeon_1gpu_pcie`
+
+### Importing from machine snapshots
+
+To exhaust imported snapshots before declaring gaps:
+
+```bash
+python scripts/sync_profiling_imports.py --import-root data/profiling_imports
+```
+
+Every copied file is recorded in `data/profiling/PROVENANCE.md` with source path and destination path.
+
+Validate profiling completeness for required model/SKU pairs:
+
+```bash
+python scripts/validate_profiling_data.py \
+  --profiling-root data/profiling \
+  --matrix \
+  --write-matrix docs/profiling_coverage.md
+```
+
+The matrix reflects model x SKU x node-size coverage and missing filenames for each non-runnable cell.
+
+CI check for runnable claims:
+
+```bash
+python scripts/validate_profiling_data.py \
+  --profiling-root data/profiling \
+  --matrix \
+  --claims-file data/registry/runnable_claims.yml
+```
+
+If a cell is listed as runnable in `data/registry/runnable_claims.yml` but required files are missing, validation fails.
+
+## Cost sources
+
+Per-device hourly pricing used for QPS-per-dollar is documented in `data/profiling/sku_costs.yml`.
+
+- Public baseline entries: CoreWeave pricing page snapshot.
+- Odyn-specific entries (MI300X, Radeon, other internal SKUs): internal provider pricing snapshot.
 
 ### CLI simulation with dashboard defaults
 
@@ -64,6 +133,9 @@ docker run --rm -p 8080:8080 \
 Open `http://localhost:8080`.
 
 To persist in GCS, set `ODYN_OUTPUT_ROOT=gs://YOUR_BUCKET/simulations` and mount Google credentials locally.
+
+To run traces from S3, set the sidebar trace field to `s3://bucket/path/to/trace.csv`.
+The dashboard downloads the trace to a local temp cache and passes that local path to `vidur.main`.
 
 ## One-command GCP deploy (Cloud Run)
 

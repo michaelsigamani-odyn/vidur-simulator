@@ -9,3 +9,7 @@ class NodeSKUType(BaseIntEnum):
     H100_DGX = 5
     H800_DGX = 6
     H20_DGX = 7
+    A100_2GPU_NVLINK = 8
+    MI300X_1GPU_PCIE = 9
+    RADEON_1GPU_PCIE = 10
+    GB10_PAIRWISE_QSFP = 11

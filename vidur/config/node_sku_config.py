@@ -87,3 +87,43 @@ class H20DgxNodeSKUConfig(BaseNodeSKUConfig):
     @staticmethod
     def get_type():
         return NodeSKUType.H20_DGX
+
+
+@dataclass
+class A100TwoGpuNvlinkNodeSKUConfig(BaseNodeSKUConfig):
+    device_sku_type: DeviceSKUType = DeviceSKUType.A100
+    num_devices_per_node: int = 2
+
+    @staticmethod
+    def get_type():
+        return NodeSKUType.A100_2GPU_NVLINK
+
+
+@dataclass
+class Mi300xOneGpuPcieNodeSKUConfig(BaseNodeSKUConfig):
+    device_sku_type: DeviceSKUType = DeviceSKUType.MI300X
+    num_devices_per_node: int = 1
+
+    @staticmethod
+    def get_type():
+        return NodeSKUType.MI300X_1GPU_PCIE
+
+
+@dataclass
+class RadeonOneGpuPcieNodeSKUConfig(BaseNodeSKUConfig):
+    device_sku_type: DeviceSKUType = DeviceSKUType.RADEON_PRO_W7900
+    num_devices_per_node: int = 1
+
+    @staticmethod
+    def get_type():
+        return NodeSKUType.RADEON_1GPU_PCIE
+
+
+@dataclass
+class GB10PairwiseQsfpNodeSKUConfig(BaseNodeSKUConfig):
+    device_sku_type: DeviceSKUType = DeviceSKUType.GB10
+    num_devices_per_node: int = 1
+
+    @staticmethod
+    def get_type():
+        return NodeSKUType.GB10_PAIRWISE_QSFP
